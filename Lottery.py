@@ -1,39 +1,3 @@
-#!/usr/bin/python3
-# ==============================================================================
-#   Assignment:  M0
-#
-#       Author:  Shweyin Than
-#     Language:  Python3, argparse, random
-#
-#        Class:  DPI912NSA
-#    Professor:  Harvey Kaduri
-#     Due Date:  1/29/2021
-#    Submitted:  1/29/2021
-#
-# -----------------------------------------------------------------------------
-#
-#   Description:  A lottery game
-#
-#   Collaboration: Solo
-#
-#   Input: Eg. python3 m0.py -n 2 -649
-#
-#   Output: The program will output the users generated tickets to the console and to a file called Tickets.txt.
-#
-#   Algorithm:  The program will generate a lotteryTicket object based on the command line switch that the user
-#               selects. That object will then be passed to the generateTickets function along with the number
-#               of tickets the user would like to be printed and the function will return the generated tickets
-#               in a list.
-#
-#   Required Features Not Included:  All features requested have been implemented
-#
-#   Known Bugs: The program sanitizes user input for strings, but does not include an integer limit. If the user
-#               were to request an obscene number of tickets the program will hang.
-#
-#   Classification: A
-#
-# ==============================================================================
-
 import argparse
 import random
 
